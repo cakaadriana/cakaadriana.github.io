@@ -1,0 +1,240 @@
+/*FONT FACE*/
+@font-face {
+    font-family: helvetica-bold;
+    src: url(../fonts/helvetica-bold.ttf);
+}
+
+@font-face {
+    font-family: fangtasia;
+    src: url(../fonts/fangtasia.ttf);
+}
+
+body{
+    
+   background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*Logo*/
+.logo{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+/*Navbari*/
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    border-bottom: 2px solid #f26c4f;
+    width: 1%;
+    padding-left: 0px;
+    padding-right: 30px;
+    color: #4b5053;
+}
+
+.navbar-default .navbar-nav>li>a{
+    padding-left: 0px;
+    padding-right: 30px;
+    font-family: helvetica-bold;
+    color: #4b5053;
+}
+
+.navbar-default .navbar-nav>li>a>i{
+    color: #fff;
+    border: 1px solid #4b5053;
+    padding: 10px;
+    background: #4b5053;
+    border-radius: 50%;
+}
+
+.navbar-default .navbar-nav>li>a>i:hover{
+    background: #f26c4f;
+    border: 1px solid #f26c4f;
+}
+
+/*Carouseli*/
+.carouseli span{
+    font-family: fangtasia;
+    font-size: 80px;
+}
+
+.carouseli h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 0%;
+    z-index: 15;
+    width: 10%;
+    float: left;
+    margin-left: 0%;
+    list-style: none;
+}
+
+.carousel-indicators .active{
+    background: #242728;
+    border-color: #242728;
+}
+
+.carousel-indicators li{
+    background: #818385;
+    border-color: #818385;
+}
+
+.carousel-caption{
+    padding-bottom: 100px;
+}
+
+/*Section 1*/
+.section_1{
+    padding-top: 30px;
+}
+.section_1 h4{
+    font-family: helvetica-bold;
+    padding-top: 10px;
+    color: #4b5053;
+}
+.sec1{
+    padding-bottom: 25px;
+}
+
+/*Section 2*/
+.section_2{
+    padding-bottom: 30px;
+}
+
+.section_2 h5{
+    color: #4b5053;
+    font-family: helvetica-bold;
+}
+
+.me_border{
+    padding-top: 5px;
+    border-top: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    margin-bottom: 20px;
+}
+
+.me_border i{
+    color: #707070;
+}
+
+
+.border_me hr{
+    border-bottom: 2px dotted #c7c7c7;
+    width: 25px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.border_me p{
+    margin-bottom: 0px;
+}
+
+/*Section 3*/
+.section_3{
+    padding-bottom: 30px;
+}
+
+.section_3 span{
+    color: #ababab;
+}
+
+.section_3 h5{
+    color: #4b5053;
+    font-family: helvetica-bold;
+}
+
+.section_3 ul{
+    list-style: none;
+}
+
+.section_3 ul li{
+    display: inline;
+}
+
+.section_3 ul li i{
+    color: #ababab;
+}
+
+
+/*Media Query*/
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+     
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+       
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+       
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+            .carousel-caption{
+            padding-bottom: 22px;
+        }
+        .carousel-caption{
+            font-size: 35px;
+        }
+        .carouseli h1{
+            font-size: 15px
+        }
+    }
